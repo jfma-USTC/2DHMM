@@ -1,0 +1,10 @@
+# gmm-align-2D ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/23.mdl "ark:apply-cmvn  --utt2spk=ark:./data_true_2d/train_8r_8d/split20/4/utt2spk scp:./data_true_2d/train_8r_8d/split20/4/cmvn.scp scp:./data_true_2d/train_8r_8d/split20/4/feats.scp ark:- |" ark:./data_true_2d/train_8r_8d/split20/4/block "ark:text2phone.pl ./lang_true_2d/lang/../dict/lexicon.txt ./lang_true_2d/lang/phones.txt ./data_true_2d/train_8r_8d/split20/4/text|" "ark,t:|gzip -c >./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/ali.4.gz" 
+# Started at Tue Mar 31 23:48:51 CST 2020
+#
+gmm-align-2D ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/23.mdl 'ark:apply-cmvn  --utt2spk=ark:./data_true_2d/train_8r_8d/split20/4/utt2spk scp:./data_true_2d/train_8r_8d/split20/4/cmvn.scp scp:./data_true_2d/train_8r_8d/split20/4/feats.scp ark:- |' ark:./data_true_2d/train_8r_8d/split20/4/block 'ark:text2phone.pl ./lang_true_2d/lang/../dict/lexicon.txt ./lang_true_2d/lang/phones.txt ./data_true_2d/train_8r_8d/split20/4/text|' 'ark,t:|gzip -c >./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/ali.4.gz' 
+apply-cmvn --utt2spk=ark:./data_true_2d/train_8r_8d/split20/4/utt2spk scp:./data_true_2d/train_8r_8d/split20/4/cmvn.scp scp:./data_true_2d/train_8r_8d/split20/4/feats.scp ark:- 
+LOG (apply-cmvn[5.5]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 1626 utterances, errors on 0
+LOG (gmm-align-2D[5.5]:main():gmm-align-2D.cc:640) Overall log-likelihood per frame is -5.90245 over 157421 frames.
+LOG (gmm-align-2D[5.5]:main():gmm-align-2D.cc:642) Done 1626, errors on 0
+# Accounting: time=6 threads=1
+# Ended (code 0) at Tue Mar 31 23:48:57 CST 2020, elapsed time 6 seconds

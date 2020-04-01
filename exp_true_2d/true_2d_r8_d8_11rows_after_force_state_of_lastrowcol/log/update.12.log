@@ -1,0 +1,42 @@
+# gmm-est-2D --write-occs=./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/13.occs --mix-up=23398 --power=0.25 ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/12.mdl "gmm-sum-accs-2D - ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/12.*.acc|" ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/13.mdl 
+# Started at Tue Mar 31 23:45:56 CST 2020
+#
+gmm-est-2D --write-occs=./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/13.occs --mix-up=23398 --power=0.25 ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/12.mdl 'gmm-sum-accs-2D - ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/12.*.acc|' ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/13.mdl 
+gmm-sum-accs-2D - ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/12.1.acc ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/12.10.acc ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/12.11.acc ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/12.12.acc ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/12.13.acc ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/12.14.acc ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/12.15.acc ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/12.16.acc ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/12.17.acc ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/12.18.acc ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/12.19.acc ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/12.2.acc ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/12.20.acc ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/12.3.acc ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/12.4.acc ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/12.5.acc ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/12.6.acc ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/12.7.acc ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/12.8.acc ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/12.9.acc 
+LOG (gmm-sum-accs-2D[5.5]:main():gmm-sum-accs-2D.cc:68) Summed 20 stats, total count 3.07876e+06, avg like/frame -33.1655
+LOG (gmm-sum-accs-2D[5.5]:main():gmm-sum-accs-2D.cc:71) Total count of stats is 3.07876e+06
+LOG (gmm-sum-accs-2D[5.5]:main():gmm-sum-accs-2D.cc:72) Written stats to -
+LOG (gmm-est-2D[5.5]:MleUpdate_TopDown():transition-model-2D.cc:746) TransitionModel_2D::MleUpdate_TopDown, objf change is 0.000140462 per frame over 3.07876e+06 frames. 
+LOG (gmm-est-2D[5.5]:MleUpdate_TopDown():transition-model-2D.cc:749) 355 probabilities floored, 19 out of 468 transition-states skipped due to insuffient data (it is normal to have some skipped.)
+LOG (gmm-est-2D[5.5]:main():gmm-est-2D.cc:113) Transition model update: Overall 0.000140462 log-like improvement per frame over 3.07876e+06 frames. In TopDown direction.
+LOG (gmm-est-2D[5.5]:MleUpdate_LeftRight():transition-model-2D.cc:810) TransitionModel_2D::MleUpdate_LeftRight, objf change is 0.000166415 per frame over 3.07876e+06 frames. 
+LOG (gmm-est-2D[5.5]:MleUpdate_LeftRight():transition-model-2D.cc:813) 339 probabilities floored, 19 out of 468 transition-states skipped due to insuffient data (it is normal to have some skipped.)
+LOG (gmm-est-2D[5.5]:main():gmm-est-2D.cc:117) Transition model update: Overall 0.000166415 log-like improvement per frame over 3.07876e+06 frames. In LeftRight direction.
+WARNING (gmm-est-2D[5.5]:MleDiagGmmUpdate():mle-diag-gmm.cc:365) Gaussian has too little data but not removing it because it is the last Gaussian: i = 0, occ = 0, weight = 1
+WARNING (gmm-est-2D[5.5]:MleDiagGmmUpdate():mle-diag-gmm.cc:365) Gaussian has too little data but not removing it because it is the last Gaussian: i = 0, occ = 0, weight = 1
+WARNING (gmm-est-2D[5.5]:MleDiagGmmUpdate():mle-diag-gmm.cc:365) Gaussian has too little data but not removing it because it is the last Gaussian: i = 0, occ = 0, weight = 1
+WARNING (gmm-est-2D[5.5]:MleDiagGmmUpdate():mle-diag-gmm.cc:365) Gaussian has too little data but not removing it because it is the last Gaussian: i = 0, occ = 0, weight = 1
+WARNING (gmm-est-2D[5.5]:MleDiagGmmUpdate():mle-diag-gmm.cc:365) Gaussian has too little data but not removing it because it is the last Gaussian: i = 0, occ = 0, weight = 1
+WARNING (gmm-est-2D[5.5]:MleDiagGmmUpdate():mle-diag-gmm.cc:365) Gaussian has too little data but not removing it because it is the last Gaussian: i = 0, occ = 0, weight = 1
+WARNING (gmm-est-2D[5.5]:MleDiagGmmUpdate():mle-diag-gmm.cc:365) Gaussian has too little data but not removing it because it is the last Gaussian: i = 0, occ = 0, weight = 1
+WARNING (gmm-est-2D[5.5]:MleDiagGmmUpdate():mle-diag-gmm.cc:365) Gaussian has too little data but not removing it because it is the last Gaussian: i = 0, occ = 0, weight = 1
+WARNING (gmm-est-2D[5.5]:MleDiagGmmUpdate():mle-diag-gmm.cc:365) Gaussian has too little data but not removing it because it is the last Gaussian: i = 0, occ = 0, weight = 1
+WARNING (gmm-est-2D[5.5]:MleDiagGmmUpdate():mle-diag-gmm.cc:365) Gaussian has too little data but not removing it because it is the last Gaussian: i = 0, occ = 0, weight = 1
+WARNING (gmm-est-2D[5.5]:MleDiagGmmUpdate():mle-diag-gmm.cc:365) Gaussian has too little data but not removing it because it is the last Gaussian: i = 0, occ = 0, weight = 1
+WARNING (gmm-est-2D[5.5]:MleDiagGmmUpdate():mle-diag-gmm.cc:365) Gaussian has too little data but not removing it because it is the last Gaussian: i = 0, occ = 0, weight = 1
+WARNING (gmm-est-2D[5.5]:MleDiagGmmUpdate():mle-diag-gmm.cc:365) Gaussian has too little data but not removing it because it is the last Gaussian: i = 0, occ = 0, weight = 1
+WARNING (gmm-est-2D[5.5]:MleDiagGmmUpdate():mle-diag-gmm.cc:365) Gaussian has too little data but not removing it because it is the last Gaussian: i = 0, occ = 0, weight = 1
+WARNING (gmm-est-2D[5.5]:MleDiagGmmUpdate():mle-diag-gmm.cc:365) Gaussian has too little data but not removing it because it is the last Gaussian: i = 0, occ = 0, weight = 1
+WARNING (gmm-est-2D[5.5]:MleDiagGmmUpdate():mle-diag-gmm.cc:365) Gaussian has too little data but not removing it because it is the last Gaussian: i = 0, occ = 0, weight = 1
+WARNING (gmm-est-2D[5.5]:MleDiagGmmUpdate():mle-diag-gmm.cc:365) Gaussian has too little data but not removing it because it is the last Gaussian: i = 0, occ = 0, weight = 1
+WARNING (gmm-est-2D[5.5]:MleDiagGmmUpdate():mle-diag-gmm.cc:365) Gaussian has too little data but not removing it because it is the last Gaussian: i = 0, occ = 0, weight = 1
+WARNING (gmm-est-2D[5.5]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001783, occupation count 10.000000, vector size 50)
+WARNING (gmm-est-2D[5.5]:MleDiagGmmUpdate():mle-diag-gmm.cc:365) Gaussian has too little data but not removing it because it is the last Gaussian: i = 0, occ = 1, weight = 1
+LOG (gmm-est-2D[5.5]:MleAmDiagGmmUpdate():mle-am-diag-gmm.cc:225) 46374 variance elements floored in 3384 Gaussians, out of 23647
+LOG (gmm-est-2D[5.5]:MleAmDiagGmmUpdate():mle-am-diag-gmm.cc:229) Removed 1 Gaussians due to counts < --min-gaussian-occupancy=10 and --remove-low-count-gaussians=true
+LOG (gmm-est-2D[5.5]:main():gmm-est-2D.cc:128) GMM update: Overall 0.13663 objective function improvement per frame over 3.07876e+06 frames
+LOG (gmm-est-2D[5.5]:main():gmm-est-2D.cc:131) GMM update: Overall avg like per frame = -33.1655 over 3.07876e+06 frames.
+LOG (gmm-est-2D[5.5]:SplitByCount():am-diag-gmm.cc:116) Split 468 states with target = 23398, power = 0.25, perturb_factor = 0.01 and min_count = 20, split #Gauss from 23647 to 23666
+LOG (gmm-est-2D[5.5]:main():gmm-est-2D.cc:161) Written model to ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/13.mdl
+# Accounting: time=0 threads=1
+# Ended (code 0) at Tue Mar 31 23:45:56 CST 2020, elapsed time 0 seconds

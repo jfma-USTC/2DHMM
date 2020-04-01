@@ -1,0 +1,8 @@
+# gmm-init-mono-2D "--train-feats=ark:apply-cmvn  --utt2spk=ark:./data_true_2d/train_8r_8d/split20/1/utt2spk scp:./data_true_2d/train_8r_8d/split20/1/cmvn.scp scp:./data_true_2d/train_8r_8d/split20/1/feats.scp ark:- | subset-feats --n=10 ark:- ark:-|" ./lang_true_2d/lang/topo 50 ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/0.mdl 
+# Started at Tue Mar 31 23:42:08 CST 2020
+#
+gmm-init-mono-2D '--train-feats=ark:apply-cmvn  --utt2spk=ark:./data_true_2d/train_8r_8d/split20/1/utt2spk scp:./data_true_2d/train_8r_8d/split20/1/cmvn.scp scp:./data_true_2d/train_8r_8d/split20/1/feats.scp ark:- | subset-feats --n=10 ark:- ark:-|' ./lang_true_2d/lang/topo 50 ./exp_true_2d/true_2d_r8_d8_11rows_after_force_state_of_lastrowcol/0.mdl 
+apply-cmvn --utt2spk=ark:./data_true_2d/train_8r_8d/split20/1/utt2spk scp:./data_true_2d/train_8r_8d/split20/1/cmvn.scp scp:./data_true_2d/train_8r_8d/split20/1/feats.scp ark:- 
+subset-feats --n=10 ark:- ark:- 
+# Accounting: time=0 threads=1
+# Ended (code 0) at Tue Mar 31 23:42:08 CST 2020, elapsed time 0 seconds
