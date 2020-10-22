@@ -6,7 +6,7 @@
 # bool options to decide whether to prepare_lang/train/decode or not
 pre_lang=0
 train=0
-decode=1
+decode=0
 zero=0
 
 # train & decoding parameters
