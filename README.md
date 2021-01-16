@@ -1,7 +1,5 @@
 # 2DHMM
-Every important c++/script/result files in 2DHMM expriment will be stored in this repo
-
-The first pdf version of kaldi introduction is in the root path of this repo, named "kaldi单音素训练整体框架.pdf".
+Every important c++/script/result files in 2DHMM expriment is stored in this repo.
 
 Feature extract scripts are stored in directory 'feature_extract'
 
